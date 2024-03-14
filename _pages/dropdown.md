@@ -1,6 +1,6 @@
 <!-- ---
 layout: page
-title: Example Submenu
+title: Example Submenu changed
 nav: true
 dropdown: true
 children:
