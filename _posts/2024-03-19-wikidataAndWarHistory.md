@@ -2,6 +2,7 @@
 layout: post
 title: Wikidata and war history
 date: 2024-03-19 16:11:00-0400
+
 inline: false
 ---
 The topic of war has been on my mind lately, so I figured it was time to brush up on my SPARQL and check out how complete Wikidata war data is for analysis. History has always been my Achilles heel and I have no memory for dates, but diving into global war stats seemed like a worthwhile learning experience.
