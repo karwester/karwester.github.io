@@ -24,7 +24,7 @@ Unfortunately, the Wikidata war data is very incomplete, too incomplete for any 
 </div>
 
 ---
-While Wikidata is a cool place to get data on anything and I'm planning to use it again, it didn't work so well in this case. Since then I've come across a [great analysis](https://ourworldindata.org/war-and-peace) of global war data by OurWorldInData. The authors explain how complex getting data on war is and do a great job of presenting what we know so far. Most of their analyses rely on data from 1800 and later, so it would be interesting to investigate wars in older times.
+While Wikidata is a cool place to get data on anything and I'm planning to use it again, it didn't work so well in this case. Since then I've come across a [great analysis](https://ourworldindata.org/war-and-peace) of global war data by OurWorldInData. The authors explain how complex getting data on war is and do a good job of presenting what we know so far. Most of their analyses rely on data from 1800 and later, so it would be interesting to investigate wars that happened before that.
 
 
 
