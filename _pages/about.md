@@ -18,4 +18,4 @@ Hello! I'm Karolina and, among other things, I enjoy doing data analysis. This i
 
 If you have an idea and want to see if I'd be interested in helping out, please contact me.
 
-And if you ever find yourself at this tram stop, do yourself a favour and get a rurka from the ice-cream shop.
+And if you ever find yourself at this tram stop, do yourself a favour and get a [rurka](https://pl.wikipedia.org/wiki/Rurka_z_kremem#:~:text=Rurka%20z%20kremem%20%E2%80%93%20w%20kuchni,zbijanego%20(%C5%BC%C3%B3%C5%82tkowego)%20albo%20waflowego.) from the ice cream shop.
