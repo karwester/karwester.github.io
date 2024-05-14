@@ -1,32 +1,46 @@
 ---
 layout: post
-title: Approaches To Fitting Plot Data
+title: Yet another (the best?) way of fitting death toll data
 date: 2024-04-17 02:20:00-0400
 
 inline: false
 ---
-I've been trying to find a good way of displaying overlapping and scattered data points in a plot and came up with 2, maybe 3 approaches. One of them was used in my previous post to show war death toll.
+I've been trying to find a good way of displaying overlapping and scattered data points in a plot and came up with a couple of approaches. One option is to use log scale on whichever axis has outliers. The other one is to use the brokenaxes Python package. I don't love either of these approaches for displaying war data because in my view they obfuscate the magnitude to the most deadly wars but they are a compromise I will live with.
 
-Another one is using Python brokenaxes package. It deals well with white space on the graph but not so well with overlapping data points. My approach was to stretch the graph vertically and adding broken axes. Still, when the data points became too close to each other broken axes did not do so well. My best graph was for wars with over 5M deaths.
+My (probably) final attempt at the death toll graph does 3 things:
+- adds information about war duration by using bars rather than bubbles
+- gives a zoomed in/zoomed out view without overrelying on brokenaxes
+- highlights the number of big Chinese wars in history (this was not something discussed in great deatail during my Europe-focused history lessons at school.)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
       <a>
-        {% include figure.html path="assets/img/brokenAxesDeathToll.png" title="Wars by Death Toll Chart USing Brokenaxes Package" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/deathToll2Plots.png" title="Wars by Death Toll (over 1.5M) Chart" class="img-fluid rounded z-depth-1" %}
       </a>
     </div>
 </div>
 <div class="caption">
-    I tried running this for wars with deaths over 1M instead of 5M and the graph became too busy.
+    Best attempt so far.
 </div>
 
-The third approach would be to split the graph into 2 and display the busy portion as a separate graph.
+With any data that is so subjective in nature there will be questions about how accurate it is, especially for historical wars where the records may be less credible and available. My graph shows the absolute death toll numbers and it is interesting to compare it to death toll in relation to respective population. The standard in social sciences is to report cases and deaths per 100,000 to reflect the impact on population. It's worth noting, this measure compares war death toll in a specific region to the global population, not population in that region.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+      <a>
+        {% include figure.html path="assets/img/ourworldindata_wars-long-run-military-civilian-fatalities-from-brecke1.0.png" title="Wars by Death Toll CHart from Max Roser" class="img-fluid rounded z-depth-1" %}
+      </a>
+    </div>
+</div>
+<div class="caption">
+    The source of data used for this graph is likely more accurate than Wikipedia.
+</div>
 
  All code can be found in this [Jupyter notebook](https://github.com/karwester/wikiWar/blob/main/approachesToFittingOutliersOnPlots.ipynb). 
 
 
 ---
-What's next? I'm curious about BC wars and want to know more about Taiping rebellion. In general, the graphs give you the idea of how many big wars happened in Asia. This was not something discussed in great deatail during my Europe-focused history lessons.
+What's next? I've been curious about how reporting arithmetic vs. geometric mean of ranges affects the perception of death toll.
 
 
 

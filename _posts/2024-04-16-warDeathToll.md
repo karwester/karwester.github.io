@@ -25,7 +25,7 @@ My data came from [Wikipedia](https://en.wikipedia.org/wiki/List_of_wars_by_deat
 The Wikipedia graph above does a good job in showing wars and their names but:
 
 1. The distances between numbers look a bit off (the distance between 10M and 20M seems too wide. I eventually figured it's because y axis is a on a log scale but the bottom 0-3M part is cut off).
-2. With something as impactful as war one might want to avoid log scale to show the true impact of war. This is a hard one. On the one hand, you want to be accurate and express the true intensity of a war, on the other, you want to make it readable and may have limited space to fit the graph. To truly illustrate the impact of WW2 the best approach might actually be to stretch y axis so you need to scroll. The physical act of having to scroll would be akin to what xx did here to show impact of climate change.
+2. With something as impactful as war one might want to avoid log scale to show the true impact of war. This is a hard one. On the one hand, you want to be accurate and express the true intensity of a war, on the other, you want to make it readable and may have limited space to fit the graph. To truly illustrate the impact of WW2 the best approach might actually be to stretch y axis so you need to scroll. The physical act of having to scroll would be akin to what xkcd did [here] (https://xkcd.com/1732/)to show impact of climate change.
 3. The cut off point will always be arbitrary, in this case it's 3M deaths, and some of the big recent wars like the Vietnam War are not shown. I will see if I can include a few more wars while keeping it readable.
 4. Small issue, but WW1 is displayed twice.
 
@@ -61,11 +61,10 @@ So, this was my first attempt to fit all over 1M deaths wars in one graph (using
  3. WW2 death toll seems to include Second Sino-Japanese death toll...
  4. Bubble size is repating information from y axis. Can I come up with a better graph, maybe death toll, start date and duration?
  
- All code can be found in this [Jupyter notebook](https://github.com/karwester/wikiWar/blob/main/warDeathToll.ipynb). 
-
+ All code can be found in [this](https://github.com/karwester/wikiWar/blob/main/warDeathToll.ipynb) and [this](https://github.com/karwester/wikiWar/blob/main/wikipediaWarGraph.ipynb) Jupyter notebook.
 
 ---
-What's next? I think I should look into the low range of death toll and see how it changes the view of the deadliest wars.
+What's next? I'm still curious about BCE wars and better ways to display a lot of information in one graph.
 
 
 
