@@ -36,7 +36,7 @@ With any data that is so subjective in nature there will be questions about how 
     The source of data used for this graph is likely more accurate than Wikipedia.
 </div>
 
- All code can be found in this [Jupyter notebook](https://github.com/karwester/wikiWar/blob/main/approachesToFittingOutliersOnPlots.ipynb). 
+ All code can be found in this [Jupyter notebook](https://github.com/karwester/wikiWar/blob/main/longestAndDeadliestWarsContinued.ipynb). 
 
 
 ---
